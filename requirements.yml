@@ -1,0 +1,50 @@
+roles:
+  - name: role-configure-services
+    src: https://gitlab.otxlab.net/csdbksvc/ansible/role-configure-services.git
+    scm: git
+    version: v1.1
+
+  - name: role-redhat-satellite-registration
+    src: https://gitlab.otxlab.net/csdbksvc/ansible/role-redhat-satellite-registration.git
+    scm: git
+    version: v1.1
+
+  - name: role-logrhythm-install
+    src: https://gitlab.otxlab.net/csdbksvc/ansible/role-logrhythm-install.git
+    scm: git
+    version: v1.2
+
+  - name: role-ocs-agent-install
+    src: https://gitlab.otxlab.net/csdbksvc/ansible/role-ocs-agent-install.git
+    scm: git
+    version: v1.2
+
+  - name: ocs-xml-plugin-install
+    src: https://gitlab.otxlab.net/csdbksvc/ansible/ocs-xml-plugin-install.git
+    scm: git
+    version: 1.1.2
+
+  - name: role-qualys-cloud-agent-install
+    src: https://gitlab.otxlab.net/csdbksvc/ansible/role-qualys-cloud-agent-install.git
+    scm: git
+    version: v1.2
+
+  - name: role-s1-agent-install
+    src: https://gitlab.otxlab.net/csdbksvc/ansible/role-s1-agent-install.git
+    scm: git
+    version: v1.2
+
+  - name: role-zabbix-agent-install
+    src: https://gitlab.otxlab.net/csdbksvc/ansible/role-zabbix-agent-install.git
+    scm: git
+    version: v1.2
+
+  - name: role-domain-join
+    src: https://gitlab.otxlab.net/csdbksvc/ansible/role-domain-join.git
+    scm: git
+    version: v1.2
+
+collections:
+  - name: community.general
+    source: https://galaxy.ansible.com
+    version: 4.0.0
